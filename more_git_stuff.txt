@@ -1,0 +1,3 @@
+
+Common to all GUI merge tools is the ability to step through each change and choose which version you like. You must save those changes before exiting. git mergetool looks at the result and stages that as the correct version of the conflicting code.
+You have to commit your changes once the conflict has been resolved, just like manually merging the conflicts (see Task 24, Handling Conflicts, on page 82). git mergetool stages the changes for you; that’s the only difference.
